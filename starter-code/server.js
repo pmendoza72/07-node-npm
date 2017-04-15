@@ -4,6 +4,8 @@
 // We used the following command: npm init -y
 // TODO: Require the Express package that you installed via NPM, and instantiate the app
 // Remember to install express, and be sure that it's been added to your package.json as a dependency
+const express = require('express');
+const app = express();
 
 const PORT = process.env.PORT || 3000;
 
@@ -11,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(__dirname + '/public'));
 app.get('*', function(request, response) {
   // TODO: Using the response object, send the index.html file back to the user
-  res.sendFile(__dirname + '/index.html');
+res.sendFile(__dirname + '/index.html');
 
 });
 
@@ -19,4 +21,5 @@ app.get('*', function(request, response) {
 
 app.listen(PORT, function() {
   // TODO: Log to the console a message that lets you know which port your server has started on
+  console.log(PORT);
 });
