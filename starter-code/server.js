@@ -1,7 +1,7 @@
 'use strict';
 
 // TODO: Initialize your project using NPM to create and populate a package.json file
-
+// We used the following command: npm init -y
 // TODO: Require the Express package that you installed via NPM, and instantiate the app
 // Remember to install express, and be sure that it's been added to your package.json as a dependency
 

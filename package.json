@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/pmendoza72/07-node-npm/issues"
   },
-  "homepage": "https://github.com/pmendoza72/07-node-npm#readme"
+  "homepage": "https://github.com/pmendoza72/07-node-npm#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "i": "^0.3.5"
+  }
 }
