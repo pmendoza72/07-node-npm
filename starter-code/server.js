@@ -21,5 +21,6 @@ res.sendFile(__dirname + '/index.html');
 
 app.listen(PORT, function() {
   // TODO: Log to the console a message that lets you know which port your server has started on
+  //in terminal run 'node server.js' in starter code directory
   console.log(PORT);
 });
